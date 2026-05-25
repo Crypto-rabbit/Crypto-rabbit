@@ -1,24 +1,51 @@
 # Crypto-rabbit
 
-Практические проекты на стыке автоматизации, Telegram-ботов, крипто-инструментов и AI-помощников.
+Делаю практические проекты на Python, Telegram, AI-интеграциях, автоматизации и веб-разработке. В репозиториях больше всего видно работу с ботами, API, хранением данных, крипто-инструментами и небольшими продуктами, которые можно запустить и проверить.
 
-## Сейчас в работе
+## Навыки по проектам
 
-- `helen-sport-` - приватный Telegram AI health coach: Google Apps Script, Google Sheets, OpenAI, Python, трекинг еды, воды, сна и тренировок.
-- `bybit-ma-signal-bot` - Python-бот для сигналов Bybit Futures: пересечения скользящих средних, мониторинг пар, FastAPI/WebSocket.
-- `TelegramNFT` - локальный TON/NFT workspace для ассетов, metadata, контрактов и проверки структуры коллекции.
-- `monast` - PHP-сайт по монастырю, архив и восстановление проекта с хостинга.
+**Python и backend**
 
-## Фокус
+- Telegram-боты и обработка пользовательских сценариев.
+- FastAPI, WebSocket, фоновые процессы и запуск сервисов.
+- Интеграции с внешними API: Bybit, Telegram, OpenAI.
+- Скрипты запуска, настройка окружения, работа с зависимостями.
 
-- Telegram-боты и автоматизация рабочих процессов.
-- AI-агенты и помощники с понятными границами ответственности.
-- Python, JavaScript, Google Apps Script, PHP.
-- Крипто-инструменты, сигналы, TON/NFT-эксперименты.
+**AI и автоматизация**
 
-## Репозитории
+- AI-помощники для Telegram с понятной логикой поведения.
+- OpenAI API для анализа, рекомендаций и обработки пользовательских данных.
+- Google Apps Script и Google Sheets как serverless backend и база для MVP.
+- Ограничение токенов, хранение краткого контекста, правила безопасности для ответов.
 
-- [bybit-ma-signal-bot](https://github.com/Crypto-rabbit/bybit-ma-signal-bot)
-- [monast](https://github.com/Crypto-rabbit/monast)
+**Crypto / trading / TON**
 
-Часть проектов приватная или пока ведется локально, поэтому в публичном профиле оставлены только безопасные описания без ключей, токенов и внутренних данных.
+- Сигнальный бот для Bybit Futures на основе пересечений moving averages.
+- Мониторинг торговых пар и передача сигналов через backend-интерфейс.
+- TON/NFT workspace: assets, metadata, contracts, Node.js и scripts для проверки структуры.
+
+**Web и инфраструктура**
+
+- PHP-сайты, архивы сайтов и восстановление проектов с хостинга.
+- Docker basics, PowerShell scripts, локальная настройка окружения.
+- README, deployment docs, quick-start инструкции и техническая документация.
+
+## Проекты
+
+| Проект | Что внутри | Стек |
+| --- | --- | --- |
+| [bybit-ma-signal-bot](https://github.com/Crypto-rabbit/bybit-ma-signal-bot) | Сигнальный бот для Bybit Futures, MA-сигналы, мониторинг пар, FastAPI/WebSocket | Python, FastAPI, WebSocket |
+| [monast](https://github.com/Crypto-rabbit/monast) | PHP-сайт по монастырю, архив и восстановление веб-проекта с хостинга | PHP |
+| `helen-sport-` | Приватный Telegram AI health coach: питание, вода, сон, тренировки, onboarding, storage, deployment docs | JavaScript, Google Apps Script, Google Sheets, OpenAI, Python |
+| `TelegramNFT` | Локальная рабочая область для TON/NFT: assets, metadata, contracts и validation scripts | Node.js, TON |
+
+## Сейчас развиваю
+
+- Telegram-ботов и AI-агентов, которые работают не только как чат, а как полезный инструмент.
+- Автоматизацию через Python, Google Apps Script и локальные скрипты.
+- Крипто-инструменты: сигналы, аналитика, TON/NFT-структуры.
+- Переход от MVP к более надежной архитектуре: хранение данных, деплой, документация, проверки.
+
+## Контакты
+
+GitHub: [Crypto-rabbit](https://github.com/Crypto-rabbit)
